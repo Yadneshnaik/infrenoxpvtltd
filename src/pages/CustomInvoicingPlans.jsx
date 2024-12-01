@@ -10,7 +10,7 @@ function CustomInvoicingPlans() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Starter Plan</h5>
-              <p className="card-text">₹1500/month</p>
+              <p className="card-text">₹15000</p>
               <ul>
                 <li>Custom invoice templates</li>
                 <li>Basic invoice tracking</li>
@@ -24,7 +24,7 @@ function CustomInvoicingPlans() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Business Plan</h5>
-              <p className="card-text">₹1500/month</p>
+              <p className="card-text">₹25000</p>
               <ul>
                 <li>Custom branding</li>
                 <li>Invoice automation</li>
@@ -38,7 +38,7 @@ function CustomInvoicingPlans() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Premium Plan</h5>
-              <p className="card-text">₹1500/month</p>
+              <p className="card-text">₹35000</p>
               <ul>
                 <li>Multiple currencies</li>
                 <li>Advanced invoice automation</li>

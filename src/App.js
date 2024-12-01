@@ -9,12 +9,14 @@ import Contact from './pages/Contact';
 import BillingAutomationPlans from './pages/BillingAutomationPlans';
 import CustomInvoicingPlans from './pages/CustomInvoicingPlans';
 import SubscriptionManagementPlans from './pages/SubscriptionManagementPlans';
+import OfferBanner from "./components/OfferBanner";
 import './App.css'
 
 function App() {
   return (
     <Router>
       <Header />
+      <OfferBanner />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />

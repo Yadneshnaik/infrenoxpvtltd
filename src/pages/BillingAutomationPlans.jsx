@@ -10,7 +10,7 @@ function BillingAutomationPlans() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Basic Plan</h5>
-              <p className="card-text">₹1500/month</p>
+              <p className="card-text">₹10000</p>
               <ul>
                 <li>Automated billing</li>
                 <li>Basic invoicing features</li>
@@ -24,7 +24,7 @@ function BillingAutomationPlans() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Pro Plan</h5>
-              <p className="card-text">₹1500/month</p>
+              <p className="card-text">₹20000</p>
               <ul>
                 <li>Advanced billing automation</li>
                 <li>Custom invoicing</li>
@@ -38,7 +38,7 @@ function BillingAutomationPlans() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Enterprise Plan</h5>
-              <p className="card-text">₹1500/month</p>
+              <p className="card-text">₹30000</p>
               <ul>
                 <li>Complete automation</li>
                 <li>Custom templates</li>
