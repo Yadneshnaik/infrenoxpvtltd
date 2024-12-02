@@ -1,22 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./OfferBanner.css"; // Import CSS for animations
 
 const OfferBanner = () => {
   // State to control the visibility of the banner
   const [isVisible, setIsVisible] = useState(true);
 
-  // Check local storage to see if the banner should be hidden
-  useEffect(() => {
-    const bannerClosed = localStorage.getItem("offerBannerClosed");
-    if (bannerClosed) {
-      setIsVisible(false);
-    }
-  }, []);
-
   // Handle closing the banner
   const handleClose = () => {
     setIsVisible(false);
-    localStorage.setItem("offerBannerClosed", "true");
   };
 
   if (!isVisible) return null; // Don't render the banner if it's not visible
